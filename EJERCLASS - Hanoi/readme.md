@@ -1,1 +1,2 @@
-
+El primer metodo se llama torres_hanoi(n, origen, destino, auxiliar): ya que es el nucleo del programa y el segundo es medir_tiempo(n): que permite ejecutar el algoritmo sin ensuciar la lógica principal con cálculos de rendimiento. 
+Al parecer con 5 y 10 discos: La compu ni se frena porque son poquitos movimientos (31 y 1,023). lo hace muy rapido.Con 30 discos: aquí es donde la cosa se pone seria de pasar de fracciones de segundo, saltamos a esperar minutos enteros. Esto pasa porque cada disco que agregas duplica el trabajo anterior. Ya no hablamos de miles, sino de más de mil millones de movimientos.Con 64 discos: el número de pasos es tan absurdamente grande que ninguna computadora en el mundo podría terminarlo. Tardaría billones de años 
